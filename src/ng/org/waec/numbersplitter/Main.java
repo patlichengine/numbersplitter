@@ -40,8 +40,7 @@ public class Main {
 
     private static void splitNumbers(String collection) {
         String numberResult = "";
-        int i;
-        for(i = 0; i < collection.length(); i++){
+        for(int i = 0; i < collection.length(); i++){
             char c = collection.charAt(i);
             if( '0' <= c && c <= '9' ) {
                 numberResult+= c + " ";
